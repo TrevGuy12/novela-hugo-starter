@@ -9,46 +9,46 @@ hero: "/images/1656695893263.jpg"
 ---
 explain the process and each step in fusion for each part
 
-7 parts and images for each (mesuments with the caliper etc)
+7 parts and images for each (measurements with the caliper etc)
 
-images etc
-
-***
-
-now show the final design working before it is printed in fusion environments 
-
-images etc
+![](/images/botbase.PNG)![](/images/bottopper.PNG)![](/images/botelbow.PNG)![](/images/botarm.PNG)![](/images/botall.PNG)
 
 ***
 
-now you can show the printing process and the parts all laid out 
+now show the final design working before it is printed in fusion environments
 
-images etc
+![](/images/fusion.gif)
 
 ***
 
-now talk about the servos and their connections (the top bracket and how it fits ) and the servos assembled 
+now you can show the printing process and the parts all laid out
 
-images etc
+![](/images/3dprint.gif)
+
+![](/images/1656695893361.jpg)
+
+***
+
+now talk about the servos and their connections (the top bracket and how it fits ) and the servos assembled
+
+![](/images/image1.jpeg)
 
 ***
 
 now talk thru servos and the pi hat and what it does ...
 
-images of soldering the pins and the hat
-
-images etc
+![](/images/1657125534297.jpg)![](/images/1657125534571.jpg)![](/images/solderin2g-1.gif)
 
 ***
 
-now walk thru what packages you needed to wite the python code
+now walk thru what packages you needed to write the python code
 
 and examples of the python code
 
-images and code blocks 
+images and code blocks
 
 ***
 
 now show the final product and future scope and what could be built
 
-images etc
+![](/images/obs.gif)
