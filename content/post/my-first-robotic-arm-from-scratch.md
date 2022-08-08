@@ -55,7 +55,7 @@ now walk thru what packages you needed to write the python code
 and examples of the python code
 
 images and code blocks
-
+```js
     sudo apt-get install python-smbus
     sudo apt-get install i2c-tools
     sudo pip3 install adafruit-circuitpython-servokit
@@ -86,7 +86,7 @@ images and code blocks
         kit.servo[4].angle = 0
         kit.servo[12].angle = 0
 
-***
+```
 
 now show the final product and future scope and what could be built
 
