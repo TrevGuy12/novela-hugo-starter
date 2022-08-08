@@ -59,7 +59,9 @@ images and code blocks
     sudo apt-get install python-smbus
     sudo apt-get install i2c-tools
     sudo pip3 install adafruit-circuitpython-servokit
+```
 
+```js
     from time import *
     from adafruit_servokit import ServoKit
     kit = ServoKit(channels=16)
