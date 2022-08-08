@@ -11,7 +11,14 @@ explain the process and each step in fusion for each part
 
 7 parts and images for each (measurements with the caliper etc)
 
-![](/images/botbase.PNG)![](/images/bottopper.PNG)![](/images/botelbow.PNG)![](/images/botarm.PNG)![](/images/botall.PNG)
+![](/images/img_7579.JPG)
+![](/images/botbase.PNG)
+![](/images/img_7578.JPG)
+![](/images/botelbow.PNG)
+![](/images/img_7580.JPG)
+![](/images/botarm.PNG)
+![](/images/bottopper.PNG)
+![](/images/botall.PNG)
 
 ***
 
@@ -41,14 +48,44 @@ now talk thru servos and the pi hat and what it does ...
 
 ***
 
+![](/images/img_7576.JPG)
+
 now walk thru what packages you needed to write the python code
 
 and examples of the python code
 
 images and code blocks
 
+    from time import *
+    from adafruit_servokit import ServoKit
+    kit = ServoKit(channels=16)
+    
+    kit.servo[15].angle = 0
+    kit.servo[12].angle = 0
+    kit.servo[11].angle = 0
+    kit.servo[4].angle = 0
+    
+    while True:
+        
+        sleep(1)
+        kit.servo[11].angle = 60
+        sleep(1)
+        kit.servo[15].angle = 60
+        sleep(1)
+        kit.servo[4].angle = 60
+        sleep(1)
+        kit.servo[12].angle = 60
+        sleep(1)
+        
+        kit.servo[11].angle = 0
+        kit.servo[15].angle = 0
+        kit.servo[4].angle = 0
+        kit.servo[12].angle = 0
+
 ***
 
 now show the final product and future scope and what could be built
+
+![](/images/img_7577.JPG)
 
 ![](/images/obs.gif)
