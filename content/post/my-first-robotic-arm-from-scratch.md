@@ -4,7 +4,7 @@ authors: []
 title: 'My first robotic arm from scratch '
 excerpt: My first robotic arm from scratch need more text
 date: 2022-08-01T06:00:00+00:00
-hero: "/images/1656695893263.jpg"
+hero: "/images/obs.gif"
 
 ---
 ## Abstract
