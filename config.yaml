@@ -1,6 +1,6 @@
-baseURL: "https://example.com"
+baseURL: "https://trevor-ortell.netlify.app/"
 languageCode: "en-us"
-title: "Hugo Novela"
+title: "Trevor Ortell"
 pygmentsstyle: 'monokai'
 metaDataFormat: yaml
 
@@ -9,7 +9,7 @@ metaDataFormat: yaml
 module:
   imports:
     - path: "github.com/forestryio/hugo-theme-novela"
-paginate: 6
+paginate: 100
 social:
   twitter: "#"
   github: "#"
