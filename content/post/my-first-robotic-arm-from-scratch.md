@@ -7,6 +7,8 @@ date: 2022-08-01T06:00:00+00:00
 hero: "/images/1656695893263.jpg"
 
 ---
+## Abstract
+
 There are thousands of robotic kits you can buy online that come with pre-cut parts for any type of robot. To me that wasn't enough I wanted to design a robot from scratch, using my own brain. In order for me to design the robot, I needed to learn a software called [Fusion 360](https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription), which is a CAD (computer-aided drafting) program.
 
 ## Design/modeling phase
