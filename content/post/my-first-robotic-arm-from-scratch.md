@@ -36,25 +36,25 @@ I also had to measure the key piece so I could actually move all the other parts
 
 #### Base rotation and key slot
 
-The top of the base was another very important part that was vital for the rotation of the entire assembly.
+The top of the base was another very important part with its tongue and grove notch, and key that was vital for the rotation of the entire assembly. 
 
 ![](/images/bottopper.PNG)
 
 #### All parts
 
-These are all the final pieces of the robot laid out together, this whole process took about a month after I finished learning Fusion 360.
+These are all the final pieces of the robot laid out together, this whole process took a few weeks after I finished learning Fusion 360.
 
 ![](/images/botall.PNG)
 
 ## Component assembly phase
 
-Once I finished all of the parts I put them together in Fusion 360, so I could get a preview of the finished robot.
+Once I finished creating all of the parts I put them together in the Fusion 360 environment, so I could get a preview of the finished robot.
 
 ![](/images/fusion.gif)
 
 ## 3D printing phase
 
-After I was satisfied with the end result I 3D printed the parts with the [Ender v3 3D printer](https://www.amazon.com/Official-Creality-3D-Printer-Source/dp/B07D218NX3).
+After I was satisfied with the end result I 3D printed the parts with the [Ender v3 3D printer](https://www.amazon.com/Official-Creality-3D-Printer-Source/dp/B07D218NX3). The entire print time was roughly 13 hours.  
 
 ![](/images/3dprint.gif)
 
