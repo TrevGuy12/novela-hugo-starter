@@ -56,7 +56,7 @@ After I was satisfied with the end result I 3D printed the parts with the [Ender
 
 ![](/images/3dprint.gif)
 
-Here are the parts after they have been printed
+Here are the parts after they have been printed.
 
 ![](/images/1656695893361.jpg)
 
@@ -68,7 +68,7 @@ I now have all the parts but I have no way to make them move, so I need to conne
 
 #### Soldering
 
-controlling one servo on a raspberry pi is relatively easy with python, but it's next to impossible to control multiple servos at the same time. luckily using the Adafruit Motor/Stepper/Servo Shield you can control up to 16 different servos at the same time.
+Controlling one servo on a raspberry pi is relatively easy with python, but it's next to impossible to control multiple servos at the same time. luckily using the Adafruit Motor/Stepper/Servo Shield you can control up to 16 different servos at the same time.
 
 ![](/images/1657125534297.jpg)
 
@@ -93,7 +93,7 @@ There are three different wires:
 
 #### Setting up the pi
 
-after the wires have been attached I needed to enable [I2C](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/) in the raspberry pi config file and then I rebooted the system for the change to be implemented.
+After the wires have been attached I needed to enable [I2C](https://www.circuitbasics.com/basics-of-the-i2c-communication-protocol/) in the raspberry pi config file and then I rebooted the system for the change to be implemented.
 
 ![](/images/i2c.PNG)
 
@@ -141,12 +141,16 @@ kit.servo[4].angle = 0
         kit.servo[12].angle = 0
 ```
 
+![](/images/obs.gif)
+
 ## Reflecting phase
 
-After 2 months of designing, printing, and connecting, I finally had a working robot arm, I am truly proud of the work that I have done.
+After 2 months of designing, printing, soldering, wiring, and coding, I finally had a working robot arm.
+
+Although all of the parts, electronics, and code for the robot work well, this process took lots of trial and error, with tons of failed prints, semi-constant redesigns, and hours of debugging, Murphy's law was ever present during the creation of the robot.   
+
+My next steps are going to be refining the design, by increasing the size of the base, machining aluminum parts, and using metal gear servos. 
+
+I am truly proud of the work that I have done, this whole project has been a blast. 
 
 ![](/images/img_7577.JPG)
-
-My next steps are going to be refining the design, and making it more stable, I also want to swap the 3D printed parts for machined aluminum parts.
-
-![](/images/obs.gif)
