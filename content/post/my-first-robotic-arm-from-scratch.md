@@ -1,6 +1,7 @@
 ---
 timeToRead: 5
-authors: []
+authors:
+- Trevor Ortell
 title: 'My first robotic arm from scratch '
 excerpt: My first robotic arm from scratch need more text
 date: 2022-08-01T06:00:00.000+00:00
