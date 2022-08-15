@@ -42,3 +42,4 @@ fields:
   label: Authors
 pages:
 - content/post/my-first-robotic-arm-from-scratch.md
+- content/post/obj.md
