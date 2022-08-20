@@ -8,6 +8,14 @@ hero: ''
 draft: true
 
 ---
+![](/images/speedbase.gif)
+
+![](/images/speedconnect.gif)
+
+![](/images/together.gif)
+
+![](/images/printbed.gif)
+
 # Pi setup
 
 ##### Show your Raspberry Pi OS version.
