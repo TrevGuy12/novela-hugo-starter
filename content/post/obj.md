@@ -16,7 +16,115 @@ draft: true
 
 ![](/images/printbed.gif)
 
-# Pi setup
+## Pi setup (if you are running ML on a remote machine)
+
+[https://makerslabntu.wordpress.com/2015/08/22/how-to-use-raspberry-pi-to-control-a-servo-via-the-web/](https://makerslabntu.wordpress.com/2015/08/22/how-to-use-raspberry-pi-to-control-a-servo-via-the-web/ "https://makerslabntu.wordpress.com/2015/08/22/how-to-use-raspberry-pi-to-control-a-servo-via-the-web/")
+
+```js
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash 
+sudo apt install nodejs
+node --version
+```
+
+```js
+mkdir myServo
+cd myServo
+```
+
+```js
+npm init
+npm install express --save
+npm install connect --save
+```
+
+```js
+cd ..
+git clone https://github.com/sarfata/pi-blaster.git
+cd pi-blaster
+
+sudo apt-get install autoconf
+./autogen.sh
+./configure
+make
+sudo make install
+```
+
+to make it stop holding on to your pin
+
+```js
+sudo make uninstall
+```
+
+setup an api so we can control the servo remotely
+
+```js
+cd ..
+cd myServo
+npm install pi-blaster.js --save
+
+touch api.js
+```
+
+```js
+var http = require('http');
+var express = require('express');
+var piblaster = require('pi-blaster.js');
+ 
+var app = express();
+// ------------------------------------------------------------------------
+// configure Express to serve index.html and any other static pages stored 
+// in the home directory
+app.use(express.static(__dirname));
+ 
+//try a simpler rest get call
+app.get('/hello', function(req, res) { 
+       console.log("hello");
+ });
+ 
+//lock rest get call
+app.get('/lock', function(req, res) { 
+       piblaster.setPwm(22, 0.145);
+       res.end('Box is locked');
+ });
+ 
+//unlock rest get call
+app.get('/unlock', function(req, res) { 
+       piblaster.setPwm(22, 0.1);
+       res.end('Box is unlocked');
+ });
+ 
+ 
+// Express route for any other unrecognised incoming requests
+app.get('*', function (req, res) {
+       res.status(404).send('Unrecognised API call');
+});
+ 
+// Express route to handle errors
+app.use(function (err, req, res, next) {
+ if (req.xhr) {
+       res.status(500).send('Oops, Something went wrong!');
+ } else {
+       next(err);
+ }
+}); // apt.use()
+ 
+ 
+//------------------------------------------------------------------------
+//on clrl-c, put stuff here to execute before closing your server with ctrl-c
+process.on('SIGINT', function() {
+ var i;
+ console.log("\nGracefully shutting down from SIGINT (Ctrl+C)");
+ process.exit();
+});
+ 
+// ------------------------------------------------------------------------
+// Start Express App Server
+//
+app.listen(3000);
+console.log('App Server is listening on port 3000');
+```
+
+# Pi setup (if you are running ML on pi)
 
 ##### Show your Raspberry Pi OS version.
 
