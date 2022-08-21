@@ -124,6 +124,12 @@ app.listen(3000);
 console.log('App Server is listening on port 3000');
 ```
 
+Now on the remote machine (not the pi)
+
+http://10.0.0.188:3000/lock
+
+http://10.0.0.188:3000/unlock
+
 # Pi setup (if you are running ML on pi)
 
 ##### Show your Raspberry Pi OS version.
