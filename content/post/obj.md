@@ -1,5 +1,5 @@
 ---
-timeToRead: 0
+timeToRead: 1
 authors: []
 title: Obj
 excerpt: ''
