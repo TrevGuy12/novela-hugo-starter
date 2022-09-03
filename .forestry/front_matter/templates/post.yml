@@ -41,5 +41,6 @@ fields:
   default: []
   label: Authors
 pages:
+- content/post/automated-grocery-sorting-machine-part-1.md
 - content/post/my-first-robotic-arm-from-scratch.md
 - content/post/obj.md
