@@ -21,7 +21,9 @@ There are four different data types in total. Floats, strings, booleans, and int
 
 A Float is any numerical value with a decimal point:
 
-    tax = 0.3
+```python
+tax = 0.3
+```
 
 A string is a "string" of characters or words enclosed by quotations
 
