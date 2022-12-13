@@ -27,16 +27,21 @@ tax = 0.3
 
 A string is a "string" of characters or words enclosed by quotations
 
-    name = "Trevor"
+```python
+name = "Trevor"
+```
 
 A boolean is a true or false statement
 
-    Its raining = false
-    its sunny = true
-
+```python
+Its raining = false
+its sunny = true
+```
 An int or integer is a whole value
 
-    amount = 10
+```python
+amount = 10
+```
 
 ## Inputs and Outputs
 
@@ -44,14 +49,18 @@ The second thing in this section was inputs and outputs.
 
 An input is a "task" you assign to a program and an output is the result of said task, for example:
 
-    length = 10
-    width = 5
-    area = length*width
-    print(area)
+```python
+length = 10
+width = 5
+area = length*width
+print(area)
+```
 
 Another slightly more complicated example of this would be: 
 
-    hello = "Hello"
-    name = input("What's your name\n")
-    greeting = hello + " " + name
-    print(greeting)
+```python
+hello = "Hello"
+name = input("What's your name\n")
+greeting = hello + " " + name
+print(greeting)
+```
