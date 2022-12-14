@@ -4,7 +4,7 @@ authors: []
 title: 'Learning Python: Part 2'
 excerpt: Learning the fundamentals of python
 date: 2022-12-13T07:00:00+00:00
-hero: "/images/download-1.png"
+hero: "/images/download-3.jfif"
 
 ---
 # Python
