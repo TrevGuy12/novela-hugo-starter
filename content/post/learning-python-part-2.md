@@ -55,3 +55,4 @@ Once you have all the packages you want installed you need to import them into y
 import random 
 ```
 
+From here you can start to write your code and once you use the variables that are contained within the random packege they will be pulled as you have imported it into your project.  
