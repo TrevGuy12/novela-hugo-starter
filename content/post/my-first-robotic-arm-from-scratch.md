@@ -104,7 +104,7 @@ After the wires have been attached I needed to enable [I2C](https://www.circuitb
 
 In order for the hat to understand python, I needed to install the following packages.
 
-```js
+```python
 sudo apt-get install python-smbus
 sudo apt-get install i2c-tools
 sudo pip3 install adafruit-circuitpython-servokit
@@ -118,7 +118,7 @@ eg: (pin \[15\] angle = 180)
 
 ###### Robot.py
 
-```js
+```python
 from time import *
 from adafruit_servokit import ServoKit
 kit = ServoKit(channels=16)
