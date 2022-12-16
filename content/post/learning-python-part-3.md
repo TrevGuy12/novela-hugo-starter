@@ -29,7 +29,7 @@ songs = [song_1, song_2, song_3, song_4, song_5]
 
 Let's say you wanted to make an itemized list of expenses for the day, but you want to be able to enter the purchases as the day goes on, you could make use of a loop to enter them as you go
 
-doing this requires you to create an empty list and have the loop add to it:
+Doing this requires you to create an empty list and have the loop add to it:
 
 ```python
 total = 0
@@ -41,8 +41,8 @@ total = sum(expenses)
 print("You spent $", total)
 ```
 
-What the script above is doing is creating a total value equal to 0 so we have a variable to do the addition for the expenses, then we create a list with the name expenses so we can add values to it later. 
+What the script above is doing is creating a total value equal to 0 so we have a variable to do the addition for the expenses, then we create a list with the name expenses so we can add values to it later.
 
-Next is where the loop comes in, we are creating a loop that will repeat itself 7 times, each time the loop kicks off it's taking your input and adds it to the expenses list via the append command. 
+Next is where the loop comes in, we are creating a loop that will repeat itself 7 times, each time the loop kicks off it's taking your input and adds it to the expenses list via the append command.
 
 Then it takes all the values in expenses and adds them together and puts them under the total variable. Once that is completed it prints "You spent $X" and adds the total amount spent.
