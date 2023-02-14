@@ -44,6 +44,7 @@ pages:
 - content/post/automated-grocery-sorting-machine-part-1.md
 - content/post/automated-grocery-sorting-machine-part-3.md
 - content/post/charting-in-excel.md
+- content/post/creating-a-rest-api-with-flask-sql-alchemy.md
 - content/post/learning-python-part-1.md
 - content/post/learning-python-part-2.md
 - content/post/learning-python-part-3.md
