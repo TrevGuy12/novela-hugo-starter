@@ -1,7 +1,7 @@
 ---
 timeToRead: 2
 authors: []
-title: Automated grocery sorting machine PART 2
+title: Automated grocery sorting machine PART 2zzz
 excerpt: 'Training the ML model '
 date: 2022-09-03T06:00:00+00:00
 hero: "/images/img_7576.JPG"
