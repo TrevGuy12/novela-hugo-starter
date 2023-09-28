@@ -57,3 +57,5 @@ After the loop completes, we calculate the total expenses using the sum() functi
 ## Conclusion
 
 In this part of my Python learning journey, we've explored the essential concepts of lists and loops. Lists provide a convenient way to store collections of data, while loops enable you to perform repetitive tasks efficiently. As we continue this series, we'll dive deeper into Python's capabilities and explore more advanced topics and practical applications. Python's versatility makes it a powerful language for various tasks, and I'm excited to share more Python insights with you in the upcoming posts. Stay tuned!
+
+Test
