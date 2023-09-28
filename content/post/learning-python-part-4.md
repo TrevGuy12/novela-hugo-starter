@@ -1,19 +1,21 @@
 ---
-timeToRead: 3
+timeToRead: 5
 authors: []
-title: 'Learning Python: Part 4'
-excerpt: 'Learning the fundamentals of python '
+title: 'Learning Python: Part 4 - Dictionaries and JSON'
+excerpt: Exploring the fundamentals of dictionaries and JSON in Python.
 date: 2022-12-28T07:00:00+00:00
 hero: "/images/download-11.jfif"
-
 ---
-# Dictionaries and JSON
 
-In this section, I will be explaining dictionaries and JSON. Dictionaries are just complex lists as they can hold keys and the keys can have values tied to them, and JSON (JavaScript Object Notation) is a format that websites use to communicate information with. Although JSON was originally created in JavaScript it's now a mostly universal format.
+## Introduction
+
+Welcome to the fourth part of my "Learning Python" series. In this section, we'll dive into the fundamental concepts of dictionaries and explore JSON (JavaScript Object Notation). Dictionaries are powerful data structures that allow you to store key-value pairs, while JSON is a widely used data format for communication between websites. Let's get started!
 
 ## Dictionaries
 
-Creating a dictionary is slightly similar to creating a list as you set the dictionary to a variable and fill the rest in:
+### Creating Dictionaries
+
+Dictionaries in Python are similar to lists but with a twist—they can hold keys associated with values. You create a dictionary by assigning it to a variable and defining the key-value pairs within curly braces:
 
 ```python 
 Dictionary = {'key1':'value1', 
@@ -21,7 +23,7 @@ Dictionary = {'key1':'value1',
         	  'key3':'value3'}
 ```
 
-Dictionaries can be used for a wide variety of tasks, for example, you can create a movie showtime script:
+Dictionaries can be used for a wide variety of tasks. For example, let's create a movie showtime script using a dictionary:
 
 ```python
 current_movies = {'The Grinch':'11:00am', 'Rudolph':'1:00pm', 'Frosty The Snowman':'3:00pm', 'Christmas Vacation': '5:00pm'}
@@ -39,17 +41,13 @@ else:
 	print(movie, 'is playing at', showtime)
 ```
 
-In this script, we are creating a dictionary under the variable `current_movies` and then inputting the current movies under the key and the show times under the value. Next, the script prints **_"we are currently showing the following movies:"_** and goes into the dictionary and pulls every movie name inside by calling the key _(That being what the names are associated with)_ and printing them all. 
+In this script, we create a dictionary named current_movies with movie names as keys and showtimes as values. We then print a list of currently showing movies by iterating through the dictionary's keys.
 
-Once the user knows what movies are playing we can ask what movie they want showtimes for, we do this by having the user input the name of the movie and storing that input under the `movie` a variable. 
+The user can input the name of a movie they want showtimes for. The script uses the get() method to retrieve the showtime associated with the user's input. If the movie is not found in the dictionary, it responds with **_"We are not showing this movie at the current time."_**
 
-Now that we know what movie the user wants showtimes for we can create a new variable for the showtime to rest in, inside this new variable we call the `currentmovies.get` function and grab the value that's assigned to the movie the user inputted and print the name of the movie they chose and its show time. 
+## JSON (JavaScript Object Notation)
 
-If the user inputted a movie that isn't showing currently it will respond with **_"we are not showing this movie at the current time"._**
-
-## JSON
-
-JSON or JavaScript Object Notation is a very widely used format for web socket communication, it's mostly comprised of a series of lists and dictionaries:
+JSON, short for JavaScript Object Notation, is a widely used data format for communication between websites. It primarily consists of nested lists and dictionaries. Here's an example:
 
 ```python
 contacts = {
@@ -65,6 +63,12 @@ contacts = {
 }
 ```
 
-The example above is the most basic form of JSON. This dictionary is set under the variable `contacts`, inside the dictionary the first **_"key"_** and **_"value"_** is `number` and `4` this represents the number of students in this class, next, there is a key by the name of `students` and the value is a list, inside that list, there is another dictionary with the names and emails of the students. 
+In this example, we define a dictionary named contacts. It has two key-value pairs: **_"number"_** and 4, which represents the number of students, and **_"students"_**, which has a list of dictionaries containing student names and email addresses.
+
+JSON's flexibility and ease of use make it a valuable format for exchanging data between web services.
 
 > When dealing with JSON it can get a bit confusing as there's a lot of dictionary/list inception.
+
+## Conclusion
+
+In this part of my Python learning journey, we've explored the essential concepts of dictionaries and JSON. Dictionaries allow us to manage key-value pairs efficiently, while JSON serves as a universal data format for web communication. As we continue this series, we'll delve deeper into Python's capabilities and explore more advanced topics and practical applications. Python's versatility makes it a powerful language for various tasks, and I'm excited to share more Python insights with you in the upcoming posts. Stay tuned!
