@@ -4,8 +4,8 @@ authors:
 - Trevor Ortell
 title: 'OpenAI and LangChain part-2'
 excerpt: 'Learning how to properly use ChatGPT and LangChain'
-date: 2023-12-010T06:00:00.000+00:00
-hero: "/images/Brain1.png"
+date: 2023-10-14T07:00:00+00:00
+hero: "/images/Brain2.png"
 ---
 
 # Unlocking the Power of LangChain: A Comprehensive Guide
